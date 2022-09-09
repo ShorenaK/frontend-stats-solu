@@ -22,11 +22,14 @@ h1,h2,h3,h4,h5,h6{
     background: url('../assets/images/image-header-desktop.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    /* background-size: cover;     */
+    background-size: cover;    
 }
 
 .violet-bg{
     background-color:  hsl(277, 64%, 61%);
+}
+
+.bg-img-blend{
     opacity: 75%;
     mix-blend-mode: multiply;
 }
